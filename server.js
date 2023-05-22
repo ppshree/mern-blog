@@ -22,9 +22,9 @@ if(process.env.NODE_ENV==='production'){
 }
 
 const PORT =process.env.PORT || 8000;
-const username = process.env._USERNAME;
-const password = process.env.DB_PASSWORD;
-const URL= process.env.MONGODB_URI|| `mongodb://localhost:27017/blog`;
+// const username = process.env._USERNAME;
+// const password = process.env.DB_PASSWORD;
+const URL= process.env.MONGODB_URI || `mongodb://localhost:27017/blog`;
 
 Connection(URL);
 
